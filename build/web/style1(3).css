@@ -1,0 +1,55 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 20 Feb, 2022, 10:25:40 PM
+    Author     : parid
+*/
+h2 {
+    text-align: center;
+}
+form {
+    background-color:pink;
+    padding: 20px 30px;
+    border: 2px solid black;
+    width: 280px;
+    height: 560px;
+    margin-left: 585px;
+}
+input[type="password"],
+input[type="text"] {
+    width: 100%;
+    display:block;
+    box-sizing: border-box;
+    padding: 0 10px;
+    height: 40px;
+    margin-bottom: 15px;
+    border: 1px solid black;
+}
+input[type="submit"] {
+    width: 100%;
+    display:block;
+    box-sizing: border-box;
+    padding: 0 10px;
+    height: 40px;
+    background-color:blanchedalmond;
+    margin-bottom: 15px;
+    border: 1px solid black;
+}
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="password"]:focus,
+input[type="text"]:focus {
+    border: 3px solid #869960;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.13);
+}
+.hidden-label {
+    position:absolute;
+    height:0;
+    width:0;
+    overflow:hidden;
+    visibility:hidden;
+}
+
